@@ -1,0 +1,47 @@
+---
+title       : Coursera Developing Data Products
+subtitle    : 
+author      : 
+job         : 
+framework   : html5slides
+hitheme     : tomorrow      # 
+widgets     : [mathjax]  
+knit        : slidify::knit2slides  
+mode        : selfcontained
+---
+
+## Agenda
+
+1. This presentation is about the Shiny app developed in the Developing Data Products course
+2. The app is used as a tool for quick conversion of centimetre to metres
+3. It is a simple app designed for the use by school children
+
+--- .class #id 
+
+## Slide 2
+
+According to wikipedia, the metre is defined as the distance travelled by light in a specific fraction - about one three-hundred millionths - of a second.
+
+--- .class #id 
+
+## Slide 3
+
+The word centi when used in unit measurement usually refers to 1/100 fraction. In this case centimeter is 1/100 of a metre. The conversion is automatically calculated in the app.
+
+--- .class #id 
+
+## Slide 4
+
+This is an example of how the app works and the equation involved. The results displayed is the conversion to metre of 90cm
+
+```{r,echo=TRUE}
+cm=90
+convert <- function(cm) cm / 100
+convert(cm)
+```
+
+--- .class #id
+
+## Slide 5
+
+Thank you

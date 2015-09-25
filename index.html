@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>Coursera Developing Data Products</title>
+	<meta name="description" content="Coursera Developing Data Products">
+	<meta name="author" content="">
+	<meta name="generator" content="slidify" />
+	
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/html5slides/default/styles.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />  <link rel="stylesheet" href = "assets/css/ribbons.css">
+  
+</head>
+<body style='display: none'>
+	<section class='slides layout-regular template-regular'>
+     <article class="" id="slide-1" style="background:;">
+  <h3>Agenda</h3>
+  <ol>
+<li>This presentation is about the Shiny app developed in the Developing Data Products course</li>
+<li>The app is used as a tool for quick conversion of centimetre to metres</li>
+<li>It is a simple app designed for the use by school children</li>
+</ol>
+
+</article>
+
+<article class="class" id="id" style="background:;">
+  <h3>Slide 2</h3>
+  <p>According to wikipedia, the metre is defined as the distance travelled by light in a specific fraction - about one three-hundred millionths - of a second.</p>
+
+</article>
+
+<article class="class" id="id" style="background:;">
+  <h3>Slide 3</h3>
+  <p>The word centi when used in unit measurement usually refers to 1/100 fraction. In this case centimeter is 1/100 of a metre. The conversion is automatically calculated in the app.</p>
+
+</article>
+
+<article class="class" id="id" style="background:;">
+  <h3>Slide 4</h3>
+  <p>This is an example of how the app works and the equation involved. The results displayed is the conversion to metre of 90cm</p>
+
+<pre><code class="r">cm=90
+convert &lt;- function(cm) cm / 100
+convert(cm)
+</code></pre>
+
+<pre><code>## [1] 0.9
+</code></pre>
+
+</article>
+
+<article class="class" id="id" style="background:;">
+  <h3>Slide 5</h3>
+  <p>Thank you</p>
+
+</article>
+
+  </section>
+</body>
+  <!-- LOAD JAVASCRIPTS  -->
+	<script src='libraries/frameworks/html5slides/default/slides.js'></script>
+	<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	    tex2jax: {
+	      inlineMath: [['$','$'], ['\\(','\\)']],
+	      processEscapes: true
+	    }
+	  });
+	</script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script> -->
+	<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+	</html>
